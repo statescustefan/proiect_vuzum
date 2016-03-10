@@ -1,0 +1,494 @@
+@font-face {
+	font-family:roboto-thin;
+	src: url(Roboto-Thin.woff);}
+	@font-face {
+		font-family:roboto-regular;
+		src: url(Roboto-Regular.ttf);}
+		@font-face {
+			font-family:roboto-bold;
+			src: url(Roboto-Bold.ttf);}
+			@font-face {
+				font-family:LaurenCBrown;
+				src: url(lauren-c-brown.ttf);}
+				@font-face {
+					font-family:segoe-script;
+					src: url(segoe-script.ttf);}
+					@font-face {
+						font-family:roboto-light;
+						src: url(Roboto-Light.ttf);}
+
+						body{
+							width: 1600px;
+							
+							margin: 0px;
+							padding: 0px;	
+							position: relative;
+							margin:0;
+							padding:0;
+							height:100%;
+						}
+						div{display: block;}
+						#ro_line{
+							width: 1600px;
+							height: 2px;
+							margin: -13px;
+							padding: 0px;
+							margin-left: 0%;
+						}
+						#header{
+							background-color:#383d48;
+							width: 1600px;
+							height: 60px;
+							margin-top: 25px;
+
+						}
+						.meniu{
+							display: inline;
+							list-style: none;
+
+						}
+						#but1{
+							font-weight: 900;
+							line-height: 14px;
+							text-align: left;
+							margin-left: 327px;
+
+						}
+						#but2{
+							font-weight: 700;
+							line-height: 16px;
+							text-align: left;
+							margin-top: -19px;
+							margin-left: 31%;;
+						}
+						#but3{
+							font-weight: 700;
+							line-height: 16px;
+							text-align: left;
+							margin-top: -19px;
+							margin-left: 45%;
+						}
+
+						#search{
+							font-weight: 700;
+							line-height: 16px;
+							margin-top: -38px;
+							margin-left: 60%;
+						}
+						#search:hover{
+							background-image: url(imagini/);
+
+						}
+						#type-search
+						{
+							
+							
+							margin-top: -44px;
+							margin-left: 60.2%;
+						}
+
+						
+						#login{
+							font-weight: 700;
+							line-height: 16px;
+							margin-top: -64px;
+							margin-left: 75%;
+						}
+						#login:hover{
+							background-image: url()	
+						}
+						#search:active{
+							background-image: url(imagini/search_hover.png);
+							background-repeat: no-repeat;
+						}
+						.banner{
+							background-image: url(imagini/bg.png);
+							max-width:1600px;
+							max-height:500px; 
+							position: absolute;
+							margin-top: 0px;
+						}
+						#header2{
+							max-width: 0;
+							max-height: 0;
+
+						}
+						.font{
+							font-family:Roboto;
+							color:  #383d48;
+						}
+						#titlu{
+							font-size: 72px;
+							font-weight: 100;
+							line-height: 16px;
+							padding-top: 16px;
+							margin-top: 91px;
+							margin-left: 310px;
+						}
+						#subtitlu{
+							max-width: 500px;
+							font-size: 18px;/* Approximation due to font substitution */
+							font-weight: 400;
+							line-height: 30px;/* Approximation due to font substitution */
+							text-align: left;
+							margin-left: 310px;
+						}
+						#lista2{
+							display: inline;
+							list-style: none;
+						}
+						
+						#buton1{
+							
+							border-radius: 30px;
+							font-size: 18px;
+							color: #FFF;
+							font-family: roboto-bold;
+							background-color: rgba(56, 61, 72, 0.9);
+							width: 165px;
+							height: 50px;
+							margin-left: 19%;
+						}
+						#vezi_video{
+							font-family: LaurenCBrown;
+							color: #383d48;
+							font-size: 30px;
+							font-weight: 400;
+							line-height: 14px;
+							text-align: left;
+							float: right;
+							margin-right: 51%;
+							margin-top: -40px;
+						}
+						#arrow{
+
+							width: 12px;
+							height: 12px;
+							float: right;
+							margin-right: 50%;
+							margin-top: -22px;
+						}
+
+						#video_player{
+							margin-left: 413px;
+							margin-top: -243px;
+							padding-right: 49%;
+							border-radius: 3px;
+						}
+						
+						.video{
+							background-color: #fff;
+							width: 492px;
+							height: 330px;
+							border-radius: 18px;
+							/* border-color: #fafafa; */
+							border: solid 7px #fff;
+							box-shadow: 0px 0px 1px #888888;
+						}
+						#ro_line2{
+							width: 1600px;
+							height: 2px;
+							margin-top: 488px;
+							padding: 0px;
+
+						}
+
+						
+						#sidebar_img{
+							margin-top: -1%;
+							margin-right: 50px;
+							float: right;
+							margin-right: 268px;
+						}
+						#activitate_recenta{
+							display: inline;
+							list-style: none;
+						}
+
+						#list_icon{
+							padding-left: 10%;
+							list-style: none;
+							position: absolute;
+							margin-left: 8%;
+							margin-top: 5%;
+
+						}
+						#activitate_text{
+							font-family: roboto-regular;
+							color: #7a8387;
+							font-size: 24px;
+							font-weight: 300;
+							line-height: 16px;
+							margin-left: 21%;
+							position: absolute;
+							margin-top: 93px;
+						}
+						#bara{
+							margin-top: 9%;
+							margin-left: 1032px;
+							position: absolute;
+						}
+						#nume{
+							border-bottom: solid;
+						}
+						#rightbar{
+							margin-left: 264px;
+							list-style: none;
+							margin-top: 36px;
+						}
+						#stea{
+							float: left;
+							margin-top: 9px;
+						}
+						#text2{
+							font-family: roboto-regular;
+							color: #383d48;
+							font-size: 31px;
+							font-weight: 300;
+							line-height: 16px;
+							text-align: left;
+							float: right;
+							margin-right: 22%;
+							margin-top: -12px;
+						}
+						#bara2{
+							margin-left: 300px;
+							margin-top: 122px;
+						}
+					}
+					#poza1{
+						margin-left: 20%;
+					}
+					#descriere{
+						margin-left: 10%;
+					}
+					#proiect1 ul li{display: inline;}
+
+					li#poza1 {
+						margin-left: 19%;}
+						#proiect1 ul{
+							padding-left: 0px;
+						}
+						#descriere{
+							max-width: 17%;
+							max-height: 10%;
+							margin-left: 40%;
+							margin-top: -18%;
+							position: absolute;
+						}
+
+						#titlu-descriere{
+							font-family: roboto-regular;
+							color:  #383d48;
+							font-size: 14px;/* Approximation due to font substitution */
+							font-weight: 700;
+							line-height: 24px;/* Approximation due to font substitution */
+						}
+
+						#descriere-pp{
+							font-family: roboto-regular;
+							color:  #7a8387;
+							font-size: 14px;/* Approximation due to font substitution */
+							font-weight: 400;
+							line-height: 24px;/* Approximation due to font substitution */
+
+						}
+						#viz_proiect{
+							margin-top: 10%;
+							border-radius: 7px;
+							background-color:#fff;
+							font-style: inherit;
+							font-family: roboto-regular;
+							color:  #383d48;
+							font-size: 14px;/* Approximation due to font substitution */
+							font-weight: 700;
+							line-height: 24px;/* Approximation due to font substitution */
+							text-align: left;
+						}
+						#bara3{
+							margin-left: 300px;
+							margin-top: 2%;}
+							#news_activitate{
+								list-style: none;
+							}
+							#poza_user1{
+								float: right;
+								margin-top: 9%;
+								margin-right: -4%;
+							}
+							#nume_user1{
+								float: right;
+								margin-top: 143px;
+								margin-right: -13%;
+								font-family: Roboto;
+								color: #383d48;
+								font-size: 15.95px;
+								font-weight: 700;
+								line-height: 16px;
+								text-align: left;
+								transform: scaleY(1.0033);
+							}
+							#text_user1{
+								float: right;
+								margin-top: 11%;
+								margin-right: -15%;
+								font-family: Roboto;
+								color: #7a8387;
+								font-size: 13.95px;
+								font-weight: 400;
+								line-height: 16px;
+								text-align: left;
+								max-width: 160px;
+
+							}
+							#status{
+								
+								margin-left: 255px;
+							}
+							#status ul li{
+								display: inline;
+
+							}
+							#timp_ramas{
+								list-style: none;
+							}
+							#timp1{
+								margin-top: 0px;
+								margin-right: 90px;
+							}
+							.banner2{
+								background-image: url(imagini/Rectangle11.png);
+								max-width: 1600px;
+								max-height: 1500px;
+								position: relative;
+								margin-top: 100px;
+							}
+							.meniu2{
+								background-image: url(imagini/types_of_projects.png);
+								width: 1600px;
+								height: 60px;
+								text-align: center;
+								word-spacing: 44px;
+								margin-top:0px;
+								padding-top:10px; 
+								padding-bottom: 10px;
+							}
+							.banner2 .meniu2 li {display: inline;}
+							#recente{
+								font-weight: 700;
+								line-height: 14px;
+								text-align: left;
+								padding-left: 34%;
+							}
+							#recente:hover{
+								background-image:url(imagini/Rectangle12.png);
+								background-repeat: repeat-x;
+								border-bottom: ridge;
+								margin-top: 10%;
+							}
+							#proiecte_recente{
+								margin-top: 5%;
+								
+								list-style: none;
+
+
+							}
+							#proiecte_recente ul li{
+								display: inline;
+								list-style: none;
+							}
+							#proiecte1{
+								margin-left: 15%;
+							}
+							#proiecte2{
+								margin-left: 5%;
+								
+							}
+							#proiecte3{
+								margin-left: 5%;
+							}
+							#part2{
+								padding-top: 5%;
+								margin-left: 14%
+							}
+
+							#proiecte5{
+								margin-left: 7%;
+							}
+							#proiecte6{
+								margin-left: 6%;
+							}
+							#vezi_recente{
+
+								border-radius: 7px;
+								background-color:#fff;
+								font-style: inherit;
+								font-family: roboto-regular;
+								color:  #383d48;
+								font-size: 14px;/* Approximation due to font substitution */
+								font-weight: 700;
+								line-height: 24px;/* Approximation due to font substitution */
+								text-align: left;
+								border-radius: 30px;
+							}
+
+
+							#buton2{
+								padding-top: 10%;
+								
+							}
+						}
+						#footer{
+							background-image: url(imagini/footer_img.png);
+							max-width: 1600px;
+							max-height: auto;
+							
+							margin-top: 150%;
+
+							list-style: none;}
+							#footer ul li {
+								display: inline;
+								list-style: none;
+								margin-left: 180px;
+
+							}
+							#footer1 li{
+								display: inline;
+								list-style: none;
+
+							}
+							#item1 {
+								/* margin-right: 212px; */
+								margin-right: 0px;
+								margin-left: 31px;
+
+							}
+							#grup{    
+								margin-right: 216px;
+								float: right;
+								word-spacing: -14px;
+								margin-left: 152px;
+							}
+							.foo{
+								margin-left: 38px;
+							}
+						}
+						#muta{
+							margin-left: 20px;
+						}
+						#lista3{
+							margin-right: 10px;
+							margin-top: 70px;
+						}
+						#search_in {
+							background: url() top left no-repeat;
+							background-color: #404654;
+							border: 0px;
+							border-color: #404654;
+							width: 152px;
+							height: 25px;
+							margin-top: 10px;
+							margin-top: -44px;
+							margin-left: 2.2%;
+							color: #6e7890;
+						}
